@@ -1,11 +1,192 @@
 <html>
 <head>
+	  <link rel="stylesheet" href="stylesheet.css">
 	<title>
 
 	</title>
 </head>	
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<title>Contact info box hover effects</title>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" type ="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  </head> -->
 <body>
-HAPPY BIRTHDAY BUBU SINGH!
+  
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" type ="text/css" href="style.css">
+  
+  
+<!-- graphic design -->
+<div class="demo">
+    <div id="large-header" class="large-header">
+      
+      <div class="topnav">
+        <a class="active">Bhakti Sharma</a>
+        <div class="rightNav">
+          <a href="#contactSection">Contact</a>
+          <a href="#projectSection">Projects</a>
+          <a href="#experienceSection">Experiences</a>
+          <a href="#aboutSection">About</a>
+        </div>
+      </div>
+      
+       <canvas id="demo-canvas"></canvas>
+       <h1 class="main-title"><span class="thin">Bhakti</span> Sharma <br> <span class ="masters"> Masters CSE </span> </h1>
+    </div>
+</div>
+
+  
+  
+<!-- about section  -->
+<div id = "aboutSection">
+  <h2 class="Title"> About </h2>
+  <div class="aboutRight">
+    <p>Hi, my name is Bhakti Sharma. I am an aspiring software engineer studying Computer Science at University of Notre Dame. I began my coding career at Thapar University back in India and have not looked back. I've taken classes in Object Oriented Programming, Data Science, Artificial Intelligence, Computer Network and Security, and Full Stack Web Development.<br/> <br/>
+
+I have experience working in the industrial sector. I did my first job in Deloitte Hyderabad, India. I always had the drive to learn and gain more experiences in computer science both in front-end and back-end. This is why when i got an opportunity to do Master's in USA, I grabbed the chance to live my Indian dream. Since then, I have worked as a teaching assistant and tutor, indulged in various projects and research works in Notre Dame.<br/> <br/>
+
+Through my academic work, my professional experience, and my own interest, I have learned Python, C, C++, Java, Javascript, HTML, and CSS. I've also gained experience with frameworks such as Node, React, AutoCAD, and Unity, among others. I've worked on various data science, deep learning, web development and artificial intelligence projects.<br/> <br/>
+
+Beyond the screen, I have participated in and won numerous medals in Swimming. I have represented both my school and my college in various National and State level tournaments. When I am not stuck to the screen coding, I am writing poetry or reading books. I have also participated in dance performances and learnt various dance forms whenever I get the chance. I have both performed and taught bhangra, an Indian dance form during my college years. I try to participate in any social welfare activity whenever I get the chance. I feel like we all have a lot to give to this world.
+    </p>
+  </div>
+  <div class="aboutLeft">
+    <img id="dp" src="https://i.imgur.com/7Gt4Loi.jpg?2" alt="Bhakti Sharma" style="width:40%">
+  </div>
+</div>
+  
+
+  
+  
+<!-- Experience Timeline --> 
+<div class="timeline">
+  <div id = "experienceSection">
+    <h2 class="Title">Experiences</h2>
+  </div>
+    <div class="container left">
+      <div class="content">
+        <div class="center_align">
+          <h2>Graduate Research Assistant</h2>
+          <div class = "subheading">
+            Univ of Notre Dame, 2020      
+          </div>
+        </div>
+        <p> I'm currently working on Emotional analysis of Amazon review dataset based on customer behavior. I am trying out various machine learning algorithms and evaluating their results.</p>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <div class="center_align">
+          <h2>Teacher Assistant</h2>
+          <div class = "subheading">
+          Univ of Notre Dame, 2020
+          </div>
+        </div>
+        <p>I worked as a Teacher's Assistant for Computer Science - Data Structures. I held multiple office hours every week, graded homework assignments and exams, and lead a section of 12.</p>
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <div class="center_align">
+          <h2>System Engineer</h2>
+          <div class = "subheading">
+          Deloitte, 2019
+          </div>
+        </div>
+        <p>During my senior year of bachlers I was hired as a Business Technical Analyst at Deloitte. I was part of a Government and Public Services project team where we worked on a benefit application system. I was responsible for the development and testing of an ADA compliant accessibility tool focusing on the visually disabled clients.</p>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <div class="center_align">
+          <h2>Machine Learning Researcher</h2>
+          <div class = "subheading">
+          Univ of Michigan, 2019
+          </div>
+        </div>
+        <p>During my senior year I worked remotely with Dr. Damelin on a research project. Our team worked on the classification of hyperspectral images of landcover dataset to detect wildfires.</p>
+      </div>
+  </div>
+</div>
+
+
+  
+ <!-- Project area -->
+<div id = "projectSection">
+  <h2 class="Title">Projects</h2>
+  <div class="boxes">
+    <div class="cell cell-1">
+        <div class="heading1" >Autonomous Car</div>
+        <div class="heading2"> Thapar University, 2018</div>
+        <p>In my junior year in bachlors, I worked on one of my most interesting projects. I built an autonomous car from scratch using ultrasonic, infrared sensors, motor modules, pi-cam and raspberry pi. I was successful in building a mini car which could detect obstacles, perform path tracking and process traffic symbols and lights. I worked with tiny-yolo for fast image detection. </p>
+    </div>
+    <div class="cell cell-2">
+      <div class="heading1" >Amazon Robotics</div>
+      <div class="heading2"> Univ of Notre Dame, 2020</div>
+        <p>I am currently working on an computer vision project in collaboration with the Amazon Robotics team. Our goal is to build a robust model that can detect randomly placed small objects in a tote bag. I am exploring yolov3 and various other deep networks to perform the task. </p></div>
+    
+    <div class="cell cell-3">
+    <div class="heading1">Bug Report Classification</div>
+        <div class="heading2">Univ of Notre Dame, 2020</div>
+        <p>In my junior year in bachlors, I worked on one of my most interesting projects. I built an autonomous car from scratch using ultrasonic, infrared sensors, motor modules, pi-cam and raspberry pi. I was successful in building a mini car which could detect obstacles, perform path tracking and process traffic symbols and lights. I worked with tiny-yolo for fast image detection. </p>
+    </div>
+<!--     <div class="cell cell-4">4.</div>
+    <div class="cell cell-5">5.</div>
+    <div class="cell cell-6">6.</div> -->
+  </div>
+</div>
+
+  
+<!--CONTACT SECTION  -->
+<div id = "contactSection">
+  <h2 class="Title">Contact</h2>
+  <div class = "contactIcons">
+    
+    <div class = "box">
+      <div class = "icon" id = "address">
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+        <div id="innerText">
+          <h5>120 Broadway, Seattle</h5>
+        </div>
+      </div>
+    </div>
+    
+    <div class = "box">
+      <div class = "icon" id="email">
+        <i class="fa fa-envelope" aria-hidden="true"></i> 
+      </div>
+    </div>
+    
+    <div class = "box">
+      <div class = "icon" id="linkedin">
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+      </div>
+    </div>
+    
+    <div class = "box">
+      <div class = "icon" id= "instagram">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+      </div>
+    </div>
+  </div>
+</div>
+  
+<script type="text/javascript" src="  https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+<script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js"></script>
+<script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js"></script>
+<script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js"></script>
+
+  
 
 </body>
+
+
+
 </html>
+
+
+
