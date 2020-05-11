@@ -5,6 +5,12 @@ $(function () {
   });
 });
 
+$("#address").click(function() {
+window.open("https://drive.google.com/file/d/17mqPolm96FQjAGjWWxP3Cxt_wjg2WICC/view?usp=sharing")
+});
+
+
+
 $("#email").click(function() {
 window.open("mailto:bsharma2@gmail.com")
 });
